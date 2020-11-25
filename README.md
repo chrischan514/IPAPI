@@ -7,6 +7,4 @@ python3 ipapi.py
 ```
 
 To quit the script, type
-```exit```
-OR
-```exit()```
+```exit``` or ```exit()```
