@@ -57,7 +57,7 @@ def runQuery():
                         print("Error, Try Again!")
                 elif combo == 1:
                     if response.status_code == 200:
-                        print("".join(["IP Address: ", json["ip"], "\n", "Country: ", json["country_name"], "\n", "Region: ", json["region"], "\n", "City: ", json["city"], "\n", "Organisation: ", json["org"], "\n", "AS Number: ", json["asn"], "\n"])
+                        print("".join(["IP Address: ", json["ip"], "\n", "Country: ", json["country_name"], "\n", "Region: ", json["region"], "\n", "City: ", json["city"], "\n", "Organisation: ", json["org"], "\n", "AS Number: ", json["asn"], "\n"]))
             else:
                 combo = combo + 1
 

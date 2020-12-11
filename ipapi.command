@@ -4,7 +4,7 @@ if [ $? == 0 ]; then
 	echo "Initialised"
 else
 	echo "installing necessary component"
-	pip3 install requests -y
+	pip3 install requests dnspython
 fi
 clear
 
